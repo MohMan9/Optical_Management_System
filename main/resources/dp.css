@@ -1,0 +1,33 @@
+/* Style for the ListView (sidebar menu) */
+.list-view {
+    -fx-background-color: #1e282c; /* Darker background matching the image */
+    -fx-padding: 10;
+}
+
+.list-view .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #d1e7dd; /* Light green text */
+    -fx-font-size: 16px;
+}
+
+.list-view .list-cell:filled:selected, .list-view .list-cell:filled:selected:hover {
+    -fx-background-color: #28a745; /* Green color for selected item */
+    -fx-text-fill: #ffffff; /* White text for selected item */
+}
+
+.list-view .list-cell:filled:hover {
+    -fx-background-color: #1f6f44; /* Slightly darker green for hovered item */
+    -fx-text-fill: #ffffff;
+}
+
+/* Style for the main layout background */
+.root {
+    -fx-background-color: #1e282c; /* Matching the sidebar background */
+}
+
+/* Style for the center text */
+.center-text {
+    -fx-font-size: 24px;
+    -fx-text-fill: #d1e7dd; /* Light green text */
+    -fx-alignment: center;
+}
